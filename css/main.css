@@ -715,7 +715,7 @@ textarea {
 /* e-card2 */
 /* s-card4*/
 
-.social div::before {
+.social-s div::before {
     position: absolute;
     width: 35px;
     height: calc(100% - 1px);
@@ -742,23 +742,23 @@ textarea {
 
 
 
-.social div:nth-child(2)::before {
+.social-s div:nth-child(2)::before {
     content: "\f099";
 }
 
-.social div:nth-child(3)::before {
+.social-s div:nth-child(3)::before {
     content: "\f39e";
 }
 
-.social div:nth-child(4)::before {
+.social-s div:nth-child(4)::before {
     content: "\f167";
 }
 
-.social div:nth-child(5)::before {
+.social-s div:nth-child(5)::before {
     content: "\f08c";
 }
 
-.social div:focus-within:not(:nth-child(1))::before {
+.social-s div:focus-within:not(:nth-child(1))::before {
     color: black;
 }
 
