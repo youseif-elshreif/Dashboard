@@ -649,14 +649,16 @@
         margin-bottom: 20px;
     }
 
-    .p-10-mob {
-        padding: 10px;
+    .mr-0-mob {
+        margin-right: 0;
     }
-}
 
-@media (max-width:767px) {
     .mb-20-mob {
         margin-bottom: 20px;
+    }
+
+    .p-10-mob {
+        padding: 10px;
     }
 }
 

@@ -957,8 +957,10 @@ textarea {
     width: 64px;
 }
 
-.profile2>div:nth-child(2)>div>div:nth-child(3) {
-    text-align: right;
+@media (min-width:767px) {
+    .profile2>div:nth-child(2)>div>div:nth-child(3) {
+        text-align: right;
+    }
 }
 
 /* e-card2 */
