@@ -642,6 +642,10 @@
     .flex-coulmnre-mob {
         flex-direction: column-reverse;
     }
+
+    .flex-wrap-mob {
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width:767px) {
