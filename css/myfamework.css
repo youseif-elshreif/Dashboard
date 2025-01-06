@@ -645,9 +645,6 @@
 }
 
 @media (max-width:767px) {
-    .mb-20-mob {
-        margin-bottom: 20px;
-    }
 
     .mr-0-mob {
         margin-right: 0;
@@ -656,6 +653,11 @@
     .mb-20-mob {
         margin-bottom: 20px;
     }
+
+    .mb-5-mob {
+        margin-bottom: 5px;
+    }
+
 
     .p-10-mob {
         padding: 10px;
