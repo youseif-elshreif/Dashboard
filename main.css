@@ -90,7 +90,8 @@ textarea {
 
 @media (max-width:767px) {
     .side {
-        width: 81px;
+        width: 60px;
+        padding: 10px !important;
     }
 }
 
@@ -149,6 +150,7 @@ textarea {
 @media (max-width:767px) {
     .side a {
         text-align: center;
+        font-size: 13px;
     }
 }
 
@@ -621,12 +623,6 @@ textarea {
 .table table img {
     width: 32px;
     height: 32px;
-    border: 2px solid var(--white-c);
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
 }
 
 .table table img:not(:nth-child(1)) {
@@ -896,6 +892,269 @@ textarea {
 
 /* e-card6 */
 /* e-settings */
+/* s-profile */
+/* s-card-1 */
+.profile>div:nth-child(1) {
+    width: 300px;
+}
+
+@media (max-width:767px) {
+    .profile>div:nth-child(1) {
+        border: none;
+        border-bottom: 1px solid var(--eee-c)
+    }
+}
+
+.profile div:nth-child(1) img {
+    width: 120px;
+}
+
+@media (max-width:767px) {
+    .profile label div {
+        margin: 0 auto;
+    }
+}
+
+.profile .raiting {
+    gap: 5px;
+}
+
+/* e-card-1 */
+/* s-card2 */
+.profile>div:nth-child(2)>div {
+    transition: var(--main-trans);
+    -webkit-transition: var(--main-trans);
+    -moz-transition: var(--main-trans);
+    -ms-transition: var(--main-trans);
+    -o-transition: var(--main-trans);
+}
+
+.profile .bar {
+    margin: 10px auto;
+}
+
+.profile .bar span {
+    width: 80%;
+}
+
+.profile>div:nth-child(2)>div:hover {
+    background-color: #F9f9f9;
+}
+
+.profile2 {
+    gap: 20px;
+}
+
+.profile2>div:nth-child(1) {
+    flex-grow: 1;
+}
+
+.profile2>div:nth-child(2) {
+    flex-grow: 2;
+}
+
+.profile2>div:nth-child(2) img {
+    width: 64px;
+}
+
+.profile2>div:nth-child(2)>div>div:nth-child(3) {
+    text-align: right;
+}
+
+/* e-card2 */
+/* e-profile */
+/* s-project */
+.project .p-team {
+    height: 60px;
+}
+
+.project>span {
+    top: 10px;
+    right: 10px;
+}
+
+.project img {
+    width: 40px;
+    height: 40px;
+    bottom: 0;
+    transition: var(--main-trans);
+    -webkit-transition: var(--main-trans);
+    -moz-transition: var(--main-trans);
+    -ms-transition: var(--main-trans);
+    -o-transition: var(--main-trans);
+}
+
+.project img:nth-child(2) {
+    left: 25px;
+}
+
+.project img:nth-child(3) {
+    left: 50px;
+}
+
+.project img:nth-child(4) {
+    left: 75px;
+}
+
+.project img:nth-child(5) {
+    left: 100px;
+}
+
+.project img:hover {
+    z-index: 2;
+}
+
+.project:nth-child(1) .bar span,
+.project:nth-child(8) .bar span {
+    width: 40%;
+}
+
+.project:nth-child(2) .bar span,
+.project:nth-child(7) .bar span,
+.project:nth-child(3) .bar span {
+    width: 60%;
+}
+
+.project:nth-child(4) .bar span,
+.project:nth-child(6) .bar span {
+    width: 50%;
+}
+
+.project:nth-child(5) .bar span {
+    width: 60%;
+}
+
+/* e-project */
+/* s-Course */
+.course img:nth-child(2) {
+    width: 65px;
+    top: 15px;
+    left: 15px;
+}
+
+.course .foot span.p-a {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* e-Course */
+/* s-friends */
+.friend>i {
+    transition: var(--main-trans);
+    -webkit-transition: var(--main-trans);
+    -moz-transition: var(--main-trans);
+    -ms-transition: var(--main-trans);
+    -o-transition: var(--main-trans);
+}
+
+.friend>i:hover {
+    color: var(--white-c);
+    background-color: var(--blue-c);
+}
+
+.friend>i:nth-child(1) {
+    top: 10px;
+    left: 10px;
+}
+
+.friend>i:nth-child(2) {
+    top: 10px;
+    left: 45px;
+}
+
+.friend img {
+    width: 100px;
+}
+
+.friend .vip {
+    color: var(--orange-c);
+    font-size: 50px;
+    opacity: .3;
+    right: 0;
+    top: 0;
+    transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+}
+
+/* e-friends */
+/* s-Files */
+.files-p {
+    gap: 20px;
+}
+
+.files-p .file>div i {
+    top: 10px;
+    left: 10px;
+}
+
+.files-p .file img {
+    width: 64px;
+    transition: var(--main-trans);
+    -webkit-transition: var(--main-trans);
+    -moz-transition: var(--main-trans);
+    -ms-transition: var(--main-trans);
+    -o-transition: var(--main-trans);
+}
+
+.files-p .file:hover img {
+    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+}
+
+@media (min-width:767px) {
+    .file-statistics {
+        min-width: 260px;
+    }
+}
+
+.file-statistics>div:not(:nth-last-child(1)) i {
+    width: 40px;
+}
+
+/* e-Files */
+/* s-plans */
+.plan .num {
+    border: 3px solid var(--white-c);
+}
+
+.plan:nth-child(1) .num {
+    outline: 3px solid var(--green-c);
+}
+
+.plan:nth-child(2) .num {
+    outline: 3px solid var(--blue-c);
+}
+
+.plan:nth-child(3) .num {
+    outline: 3px solid var(--orange-c);
+}
+
+.plan .num div {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.plan .num div span {
+    top: 0;
+    left: -10px;
+}
+
+.plan .fa-check {
+    color: var(--green-c);
+}
+
+.plan .fa-xmark {
+    color: var(--red-c);
+}
+
+/* e-plans */
 /*s-animation */
 @keyframes pulse {
     100% {
